@@ -1,0 +1,25 @@
+{
+  "app": "MapleTax Canada",
+  "manifestVersion": 2,
+  "updated": "2026-09-04",
+  "years": {
+    "2024": {
+      "version": 1,
+      "file": "2024.json",
+      "updated": "2026-09-04",
+      "status": "final"
+    },
+    "2025": {
+      "version": 20260904,
+      "file": "2025.json",
+      "updated": "2026-09-04",
+      "status": "official"
+    },
+    "2026": {
+      "version": 20260904,
+      "file": "2026.json",
+      "updated": "2026-09-04",
+      "status": "official"
+    }
+  }
+}

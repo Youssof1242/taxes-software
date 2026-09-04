@@ -1,0 +1,56 @@
+{
+  "name": "mapletax-canada",
+  "version": "1.0.0",
+  "description": "MapleTax Canada — 2024-2026 Canadian personal tax desktop app (Federal + all provinces)",
+  "main": "main.js",
+  "author": "MapleTax",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable nsis",
+    "dist-portable": "electron-builder --win portable",
+    "dist-native": "node tools/build-native.js",
+    "new-year": "node tools/scaffold-year.js"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.mapletax.canada",
+    "productName": "MapleTax Canada",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "tax-data.js",
+      "cra.js",
+      "updater.js",
+      "tables/**/*",
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "MapleTax Canada"
+    },
+    "portable": {
+      "artifactName": "MapleTax-Canada-Portable.exe"
+    }
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  }
+}

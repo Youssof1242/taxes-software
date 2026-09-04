@@ -1,4 +1,3 @@
-# taxes-software
 # 🍁 MapleTax Canada — 2024–2026 Personal Tax Software
 
 Free, offline, CRA-aligned Canadian income-tax estimator with a modern UI.

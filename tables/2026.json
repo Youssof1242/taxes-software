@@ -1,0 +1,292 @@
+{
+  "year": 2026,
+  "version": 20260904,
+  "updated": "2026-09-04",
+  "status": "official",
+  "source": "canada.ca",
+  "retrieved": "2026-09-04T23:36:19.457Z",
+  "notes": "Brackets: CRA tax-rates-brackets page; BPA carried from prior tables (CRA publishes each fall); payroll: CRA CPP/EI pages; QC brackets: prior tables (Revenu Quebec). 2026 BPAs estimated (+2% over official 2025); auto-corrected when CRA publishes.",
+  "federal": {
+    "brackets": [
+      58523,
+      117045,
+      181440,
+      258482
+    ],
+    "rates": [
+      0.14,
+      0.205,
+      0.26,
+      0.29,
+      0.33
+    ],
+    "bpaMin": 14829,
+    "bpaMax": 16452,
+    "bpaThreshold": 181440,
+    "bpaEnd": 258482,
+    "indexation": "2.0%",
+    "note": "Lowest rate 14% fully effective"
+  },
+  "provinces": {
+    "ON": {
+      "brackets": [
+        53891,
+        107785,
+        150000,
+        220000
+      ],
+      "rates": [
+        0.0505,
+        0.0915,
+        0.1116,
+        0.1216,
+        0.1316
+      ],
+      "bpa": 13002,
+      "surtax": true,
+      "healthPremium": true
+    },
+    "QC": {
+      "brackets": [
+        54345,
+        108680,
+        132245
+      ],
+      "rates": [
+        0.14,
+        0.19,
+        0.24,
+        0.2575
+      ],
+      "bpa": 18965,
+      "abatement": true
+    },
+    "BC": {
+      "brackets": [
+        50363,
+        100728,
+        115648,
+        140430,
+        190405,
+        265545
+      ],
+      "rates": [
+        0.056,
+        0.077,
+        0.105,
+        0.1229,
+        0.147,
+        0.168,
+        0.205
+      ],
+      "bpa": 13191,
+      "note": "Lowest rate 5.60% from 2026 budget"
+    },
+    "AB": {
+      "brackets": [
+        61200,
+        154259,
+        185111,
+        246813,
+        370220
+      ],
+      "rates": [
+        0.08,
+        0.1,
+        0.12,
+        0.13,
+        0.14,
+        0.15
+      ],
+      "bpa": 22769
+    },
+    "SK": {
+      "brackets": [
+        54532,
+        155805
+      ],
+      "rates": [
+        0.105,
+        0.125,
+        0.145
+      ],
+      "bpa": 19881
+    },
+    "MB": {
+      "brackets": [
+        47564,
+        101200
+      ],
+      "rates": [
+        0.108,
+        0.1275,
+        0.174
+      ],
+      "bpa": 16096
+    },
+    "NS": {
+      "brackets": [
+        30995,
+        61991,
+        97417,
+        157124
+      ],
+      "rates": [
+        0.0879,
+        0.1495,
+        0.1667,
+        0.175,
+        0.21
+      ],
+      "bpa": 11979
+    },
+    "NB": {
+      "brackets": [
+        52333,
+        104666,
+        193861
+      ],
+      "rates": [
+        0.094,
+        0.14,
+        0.16,
+        0.195
+      ],
+      "bpa": 13664
+    },
+    "NL": {
+      "brackets": [
+        44678,
+        89354,
+        159528,
+        223340,
+        285319,
+        570638,
+        1141275
+      ],
+      "rates": [
+        0.087,
+        0.145,
+        0.158,
+        0.178,
+        0.198,
+        0.208,
+        0.213,
+        0.218
+      ],
+      "bpa": 11288
+    },
+    "PE": {
+      "brackets": [
+        33928,
+        65820,
+        106890,
+        142520,
+        200000
+      ],
+      "rates": [
+        0.095,
+        0.1347,
+        0.166,
+        0.1762,
+        0.19,
+        0.2
+      ],
+      "bpa": 14943,
+      "note": "New 20% bracket over ~$200k proposed Apr 2026 (modelled here from $142,520)"
+    },
+    "NT": {
+      "brackets": [
+        53003,
+        106009,
+        172346
+      ],
+      "rates": [
+        0.059,
+        0.086,
+        0.122,
+        0.1405
+      ],
+      "bpa": 18199
+    },
+    "NU": {
+      "brackets": [
+        55801,
+        111602,
+        181439
+      ],
+      "rates": [
+        0.04,
+        0.07,
+        0.09,
+        0.115
+      ],
+      "bpa": 19659
+    },
+    "YT": {
+      "brackets": [
+        58523,
+        117045,
+        181440,
+        500000
+      ],
+      "rates": [
+        0.064,
+        0.09,
+        0.109,
+        0.128,
+        0.15
+      ],
+      "bpa": 16452
+    }
+  },
+  "payroll": {
+    "ympe": 74600,
+    "yampe": 85000,
+    "cppRate": 0.0595,
+    "cpp2Rate": 0.04,
+    "exempt": 3500,
+    "qppRate": 0.063,
+    "mie": 68900,
+    "eiRate": 0.0163,
+    "eiRateQC": 0.013,
+    "eiMax": 1123.07,
+    "qpipRate": 0.0043,
+    "qpipMax": 442.9,
+    "qpipCeil": 103000,
+    "rrspLimit": 33810
+  },
+  "other": {
+    "canadaEmploymentAmount": {
+      "2024": 1488,
+      "2025": 1485,
+      "2026": 1515
+    },
+    "ageCredit": {
+      "2024": 8790,
+      "2025": 9028,
+      "2026": 9209,
+      "threshold": {
+        "2024": 44655,
+        "2025": 45846,
+        "2026": 46763
+      }
+    },
+    "spouseCreditMax": {
+      "2024": 15705,
+      "2025": 16129,
+      "2026": 16452
+    },
+    "tfsaLimit": {
+      "2024": 7000,
+      "2025": 7000,
+      "2026": 7000
+    },
+    "capitalGainsInclusion": 0.5,
+    "eligibleGrossUp": 0.38,
+    "eligibleFedCredit": 0.150198,
+    "nonEligibleGrossUp": 0.15,
+    "nonEligibleFedCredit": 0.093423,
+    "quebecAbatement": 0.165
+  }
+}
